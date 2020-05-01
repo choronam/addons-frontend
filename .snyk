@@ -138,5 +138,21 @@ ignore:
     - node-pre-gyp > tar > chownr:
         reason: None given
         expires: '2019-02-13T08:53:31.604Z'
-patch: {}
-version: v1.13.5
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@loadable/server > lodash':
+        patched: '2020-05-01T08:41:25.107Z'
+    - jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-01T08:41:25.107Z'
+    - '@willdurand/isomorphic-formdata > formdata-node > promise-fs > @octetstream/eslint-config > eslint-plugin-import > lodash':
+        patched: '2020-05-01T08:41:25.107Z'
+    - '@willdurand/isomorphic-formdata > formdata-node > promise-fs > @octetstream/eslint-config > babel-eslint > @babel/traverse > lodash':
+        patched: '2020-05-01T08:41:25.107Z'
+    - '@willdurand/isomorphic-formdata > formdata-node > promise-fs > @octetstream/eslint-config > babel-eslint > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-05-01T08:41:25.107Z'
+    - '@willdurand/isomorphic-formdata > formdata-node > promise-fs > @octetstream/eslint-config > babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-05-01T08:41:25.107Z'
+    - '@willdurand/isomorphic-formdata > formdata-node > promise-fs > @octetstream/eslint-config > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2020-05-01T08:41:25.107Z'
+version: v1.14.1
