@@ -3268,7 +3268,6 @@ babel-eslint@^9.0.0:
 
 "babel-gettext-extractor@github:mozilla/babel-gettext-extractor#babel-7":
   version "4.0.0"
-  uid "78ff104e669edb731e979e36fbf4fe261a569924"
   resolved "https://codeload.github.com/mozilla/babel-gettext-extractor/tar.gz/78ff104e669edb731e979e36fbf4fe261a569924"
   dependencies:
     "@babel/core" "^7.0.0"
@@ -15934,7 +15933,12 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-ua-parser-js@0.7.19, ua-parser-js@^0.7.18:
+ua-parser-js@0.7.23:
+  version "0.7.23"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.23.tgz#704d67f951e13195fbcd3d78818577f5bc1d547b"
+  integrity sha512-m4hvMLxgGHXG3O3fQVAyyAQpZzDOvwnhOTjYz5Xmr7r/+LpkNy3vJXdVRWgd1TkAb7NGROZuSy96CrlNVjA7KA==
+
+ua-parser-js@^0.7.18:
   version "0.7.19"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.19.tgz#94151be4c0a7fb1d001af7022fdaca4642659e4b"
   integrity sha512-T3PVJ6uz8i0HzPxOF9SWzWAlfN/DavlpQqepn22xgve/5QecC+XMCAtmUNnY7C9StehaV6exjUCI801lOI7QlQ==
